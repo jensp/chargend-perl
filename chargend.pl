@@ -5,7 +5,7 @@
 # terms as Perl itself. Please see the license that came with your Perl
 # distribution for details.
 use POE qw(Component::Server::Chargen);
-if ($#ARGV != 2 ) {
+if ($#ARGV != 1 ) {
   print "Usage: $0 address port\n";
   exit;
 }
